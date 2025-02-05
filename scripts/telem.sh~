@@ -1,6 +1,6 @@
 #!/data/adb/magisk/busybox ash
 log "telemetring"
-if [ "$telemetry"=="true" ]; then
+if [ "$telemetry" == "true" ]; then
     echo "$telemetry"
     log "telemetry on"
     if which curl; then
