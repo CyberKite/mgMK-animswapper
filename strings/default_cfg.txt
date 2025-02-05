@@ -1,0 +1,2 @@
+anim=lavalamp
+telemetry=none

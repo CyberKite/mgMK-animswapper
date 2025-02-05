@@ -1,0 +1,1 @@
+/home/me/Documents/Magisk/data/template/scripts/tinyutils.sh

@@ -1,0 +1,8 @@
+Boot Animations:
+crisp     - Doober43's "Spinning Chip"
+flask     - Conical Flask
+lavalamp  - Lava Lamp
+pumpkim   - Bouncing Pumpkin Animation, B&W
+triangle  - Triangle-shaped cycle. Hard to describe
+tux       - Linux is love, Linux is life. And Tux is about to get seasick.
+voltageos - Boot animation from the VoltageOS Android ROM

@@ -1,0 +1,3 @@
+From the VoltageOS Android ROM: https://github.com/VoltageOS
+Read the Apache license here:   https://www.apache.org/licenses/LICENSE-2.0
+(It's unfortunately not all that feasible to throw it in this text)
