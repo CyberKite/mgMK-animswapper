@@ -1,4 +1,0 @@
-#!/data/adb/magisk/busybox ash
-. "${MODPATH}/scripts/parse_cfgfile.sh"
-. "${MODPATH}/scripts/load_animation.sh"
-. "${MODPATH}/scripts/telem.sh"
