@@ -1,1 +1,1 @@
-rm $BUILDPATH/{update.json,changelog.md}
+rm $BUILDPATH/{readme.md,update.json,changelog.md}
