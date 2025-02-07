@@ -1,6 +1,6 @@
 {
-    "version": "0.22.0",
-    "versionCode": "28",
+    "version": "v0.22.0",
+    "versionCode": 28,
     "zipUrl": "https://github.com/CyberKite/mgMK-animswapper/releases/latest/download/animswapper.zip",
     "changelog": "https://raw.githubusercontent.com/CyberKite/mgMK-animswapper/main/changelog.md"
 }
