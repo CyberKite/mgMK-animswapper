@@ -1,6 +1,6 @@
 # Animation Swapper
 ## TL;DR
-On-device boot animation management_
+*On-device boot animation management*
 
 ## Telemetry
 
