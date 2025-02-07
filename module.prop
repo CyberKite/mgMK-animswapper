@@ -1,7 +1,7 @@
 id=animswapper
 name=AnimSwapper
-version=v0.22.0
-versionCode=28
+version=v0.22.2
+versionCode=30
 author=Cyberfishofant2
 description=No-Fuss Bootanimation Switcher
-updateJson=https://raw.githubusercontent.com/CyberKite/mgMK-animswapper/main/changelog.md
+updateJson=http://192.168.1.93/update.json
