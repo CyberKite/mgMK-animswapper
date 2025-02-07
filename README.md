@@ -1,10 +1,15 @@
 # Animation Swapper
 ## TL;DR
-On-device boot animation management_
+*On-device boot animation management*
 
 ## Telemetry
 
 The module curls to webhook.site - I want some dopamine on occasion.
+Data Sent:
+- Your Magisk Version - to ensure compatibility with most people
+- Your OS Name - so I don't get excited about my own machines
+- The Module Version - literally just tracking, sorry.
+_(I also use this data to distinguish more people, so I can get my dopamine without lying to myself)_
 
 ## Features
 

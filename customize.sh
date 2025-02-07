@@ -27,3 +27,6 @@ ui_print "======================================================================
 log "Magisktmp=$MAGISKTMP"
 . "${MODPATH}/scripts/cleanup.sh"
 log "EXIT Customize.sh"
+
+# this is a debug statement, but eh
+ui_print "Done, enjoy!"
