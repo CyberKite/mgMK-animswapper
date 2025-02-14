@@ -6,7 +6,7 @@ if [ "$telemetry" == "true" ]; then
     if which curl; then
         osname="$(getprop ro.product.name)"
         modver="$(cat module.prop | grep 'version=' | cut -b 9-)"
-        curl -X GET "https://webhook.site/3d08bf50-7e43-4c57-85eb-e092d6cf8138?type=install&osname=$osname&modver=$modver&mgkver=$MAGISK_VER&dbg=$DEBUG" > /dev/null 2>/dev/null &
+        curl -X GET "https://webhook.site/3fab18b9-0ac4-46de-b283-2e6c03de8aff?type=install&osname=$osname&modver=$modver&mgkver=$MAGISK_VER&dbg=$DEBUG" > /dev/null 2>/dev/null &
         ui_print "########################"
         ui_print "# TELEMETRY PING SENT. #"
         ui_print "########################"
