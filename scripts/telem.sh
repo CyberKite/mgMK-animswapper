@@ -1,12 +1,12 @@
 #!/data/adb/magisk/busybox ash
 log "telemetring"
-if [ "$telemetry" == "true" ] && [ ! "$DEBUG" == "true" ]; then
+if [ "$telemetry" == "true" ]; then
     echo "$telemetry"
     log "telemetry on"
     if which curl; then
         osname="$(getprop ro.product.name)"
         modver="$(cat module.prop | grep 'version=' | cut -b 9-)"
-        curl -X GET "https://webhook.site/3d08bf50-7e43-4c57-85eb-e092d6cf8138?type=install&osname=$osname&modver=$modver&mgkver=$MAGISK_VER" > /dev/null 2>/dev/null &
+        curl -X GET "https://webhook.site/3d08bf50-7e43-4c57-85eb-e092d6cf8138?type=install&osname=$osname&modver=$modver&mgkver=$MAGISK_VER&dbg=$DEBUG" > /dev/null 2>/dev/null &
         ui_print "########################"
         ui_print "# TELEMETRY PING SENT. #"
         ui_print "########################"
